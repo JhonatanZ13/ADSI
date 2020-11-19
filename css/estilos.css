@@ -1,0 +1,288 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+/*
+body{
+	background-image: linear-gradient(to top, #8cc8d180 0%, rgba(141, 104, 235, 0.5) 100%), url("../img/fondo.jpg");
+	background-size: cover;
+
+
+}
+*/
+body{
+	background: #fff;
+}
+#header1{
+	top: 0px;
+	width: 100%;
+	height: 50px;
+	background: #000;
+}
+#headerLogo{
+	background:#000;
+	color: #fff;
+	height: 120px;
+	width: 100%;
+	text-align: left;
+	top: 0;
+	z-index: 0;
+}
+#contLogo{
+	width: 1350px;
+	height: 90px;
+	margin: auto;
+	display: flex;
+}
+.subContLogo{
+	width: 450px;
+	text-align: left;
+}
+.subContLogo3{
+	width: 450px;
+	padding-top: 40px;
+	padding-right: 30px;
+}
+#btnLogin{
+	height: 25px;
+	padding-left: 20px;
+	padding-top: 5px;
+	color: #fff;
+	float: right;
+}
+nav{
+	background: rgba(0, 0, 0, 1);
+	width: 100%;
+	height: auto;
+	display:flex;
+}
+#header_nav{
+	font-family: sans-serif;
+	font-size: 15px;
+	height: 50.4px;
+	width: 1280px;
+	margin: auto;
+	display: flex;
+	background:none;
+}
+#cajaNav1{
+	height: 50px;
+	width: 500px;
+}
+#cajaNav2{
+	width: 780px;
+	height: 50px;
+	font-size: 25px;
+}
+#cajaNav3{
+	width: 780px;
+	height: 50px;
+	font-size: 25px;
+}
+#barraBusqueda{
+	float: right;
+	color: #fff;
+}
+.btnBuscar{
+	padding-right: 5px;
+	padding-top: 5px;
+}
+#btnLogin:hover{
+	cursor: pointer;
+}
+#btnCompra{
+	font-size: 25px;
+	padding-top: 5px;
+	padding-left: 30px;
+	color: #fff;
+	float:right;
+	text-decoration: none;
+}
+a:visited{
+	color: #fff;
+}
+ul{
+	list-style: none;
+}
+li{
+	width: 100px;
+	text-align: center;
+}
+#log{
+	width: 130px;
+	text-align: center;
+}
+.navBar li a{
+	background: transparent;
+	color: #fff;
+	text-decoration: none;
+	padding-bottom: 10px;
+	display: block;
+}
+.navBar li a:hover{
+	color: #fff;
+	border-bottom: 5px solid #fff;
+}
+
+
+.navBar > li{
+	float: left;
+	display: block;
+}
+#banner{
+	text-align: center;
+	height: auto;
+	width: 1280px;
+	margin: auto;
+	display: block;
+	margin-top: 20px;
+}
+#banner img{
+	width: 1280px;
+	height: auto;
+	display: block;
+	position: relative;
+}
+#banner img:hover{
+	-webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);
+	transition: transform .5s;
+	cursor: pointer;
+	
+}
+.caja1{
+	width: 400px;
+	color: white;
+	text-align: right;
+	padding-top: 15px;
+}
+input[type=search]{
+	width: 200px;
+	border: 0;
+	outline: none;
+	background: none;
+	color: #fff;
+}
+footer{
+	width: 100%;
+	height: 250px;
+	background: black;
+	margin-top: 100px;
+	bottom: 0;
+	color: #fff;
+}
+.footer_cont{
+	width: 1280px;
+	height: 200px;
+	color: #fff;
+	border-bottom: 1px solid #5c5c5c;
+	margin: auto;
+}
+.footer2{
+	padding-top: 10px;
+	width: 1280px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.footer_cont{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+#grid1{
+	width: 1280px;
+	margin: auto;
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5em;
+}
+#grid1 img {
+	width: 600px;
+	height: 500px;
+}
+#grid1 img:hover{
+	-webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);
+	transition: transform .5s;
+	cursor: pointer;
+}
+#contenido{
+	width: 100%;
+	height: 2000px;
+	background: #e3e3e3;
+	margin: auto;
+}
+.redes{
+	text-align: right;
+	font-size: 40px;
+	padding-top: 20px;
+}
+#nombre{
+	font-size: 20px;
+	padding-top: 20px;
+}
+.redes i:Hover{
+	cursor: pointer;
+	color: chocolate;
+}
+.main_inicio{
+	width: 1280px;
+	margin: auto;
+	height: 800px;
+	padding-top: 50px;
+}
+.inicio_cont{
+	width: 500px;
+	height: 600px;
+	margin: auto;
+	background: #dddddd;
+	border: 1px solid #000;
+}
+.logo_inicio{
+	height: 100px;
+	background: #000000;
+	width: 100%;
+	text-align: center;
+}
+#title_inicio{margin-top: 20px;
+	text-align: center;
+}
+form{
+	margin-top: 80px;
+}
+#campos_inicio{
+	width: 400px;
+	height: 400px;
+	margin: auto;
+}
+#campos_inicio input[type=text], input[type=password]{
+	margin-top: 20px;
+	width: 96%;
+	height: 40px;
+	outline: none;
+	padding-left: 10px;
+
+}
+#campos_inicio a{
+	color: #000;
+}
+#inicioS{
+	margin-top: 20px;
+	width: 100%;
+	height: 40px;
+	outline: none;
+	padding-left: 10px;
+	background: #000;
+	color: #fff;
+	font-weight: bold;
+}
+#inicioS:hover{
+	cursor: pointer;
+}
+#recordarC{
+	margin-top: 10px;
+}
